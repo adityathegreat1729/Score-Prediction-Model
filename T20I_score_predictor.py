@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 import streamlit as st
 st.set_page_config(page_title='T20I Score Predictor',layout="centered")
-filename="E:\score prediction model\T20I.pkl"
+filename="T20I.pkl"
 model = pickle.load(open(filename,'rb'))
 st.markdown("<h1 style='text-align: center; color: white;'> T20I score predictor </h1><text>Made with love by Aditya Khambete</text>", unsafe_allow_html=True)
 
